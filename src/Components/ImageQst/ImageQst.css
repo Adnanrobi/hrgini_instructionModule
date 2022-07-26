@@ -1,0 +1,93 @@
+.ImageQst{
+    background-color: white;
+    border-radius: 1rem;
+    width: 65vw;
+    padding:1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.ImageQst__option{
+    max-height:10rem;
+    width: auto;
+
+}
+
+.ImageQst__LeftBottom{
+    display:flex;
+    align-items:center;
+    margin-bottom: 0.5rem;
+}
+
+.Checkbox{
+    height:1rem;
+    width:1rem;
+    background-color:#D9D9D9;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.ImageQst__marked{
+    background-color: #E8FCEB;
+    border-radius: 1rem;
+    width: 65vw;
+    padding:1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.ImageQst__unmarked{
+    background-color: white;
+    border-radius: 1rem;
+    width: 65vw;
+    padding:1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.Qst__row{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.Qst__row__left{
+    flex: 0.8;
+    max-width: 70vh;
+}
+
+/* .Image__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 1rem;
+    margin-top: 1rem;
+} */
+
+.ImageQst__image{
+    height: 10rem;
+    width: 10rem;
+    transition: transform .2s;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImageQst__image:hover{
+    transform:scale(3);
+}
+
+.ImageQst__imageInsideQst{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.ImageQst__eachImage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:0.5rem;
+}

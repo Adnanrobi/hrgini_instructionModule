@@ -1,0 +1,12 @@
+.QstList{
+    background-color: #F0F0F0;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
