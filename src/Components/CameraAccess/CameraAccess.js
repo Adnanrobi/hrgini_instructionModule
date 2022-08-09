@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./CameraAccess.css";
 
+
 function CameraAccess() {
   const videoRef = useRef(null);
   const photoRef = useRef(null);
