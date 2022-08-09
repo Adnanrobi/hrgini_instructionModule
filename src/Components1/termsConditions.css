@@ -1,8 +1,10 @@
 .section {
   background: white;
-  padding: 4rem;
+  /* margin-left: 20rem; */
   display: grid;
   place-items: center;
+  width: 100%;
+  max-height: 70%;
 }
 
 .terms_header {
@@ -13,28 +15,32 @@
 
 .terms {
   background-color: #e8fceb;
-  width: 400px;
-  height: 300px;
-  overflow: auto;
+  /* overflow: auto; */
   padding: 2rem 2rem 1rem;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   font-size: 1.3rem;
   line-height: 1.2;
 }
 .terms > h2 {
   font-size: 1.2rem;
   font-weight: bold;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .terms > p {
   margin: 1rem 0;
   font-size: 1.2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .terms > ul {
   margin-left: 2rem;
   list-style: disc;
   font-size: 1.2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .terms > ul > li {
@@ -44,7 +50,7 @@
 
 .terms_container {
   display: grid;
-  width: 400px;
+  width: 100%;
   margin: auto;
 }
 .btn_container {
@@ -60,11 +66,34 @@
 
 .btn_accept {
   all: unset;
-  width: 60%;
+  width: 40%;
   display: inline-block;
   text-align: center;
-  background-color: #397A9D;
+  background-color: #397a9d;
   padding: 1rem 1.5rem;
-  transition: all 250ms ease-in-out;
+  transition: all 0.25s ease-in;
   opacity: 1;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn_reject {
+  all: unset;
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  background-color: #397a9d;
+  padding: 1rem 1.5rem;
+  transition: all 0.25s ease-in;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+
+.btn_accept:hover {
+  width: 42%;
+  height: 50%;
+}
+
+button:disabled {
+  opacity: 0.5;
 }
