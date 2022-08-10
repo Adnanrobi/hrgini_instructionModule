@@ -47,3 +47,10 @@ function CameraAccess() {
 }
 
 export default CameraAccess;
+
+
+// {length < 5 ? (
+//   setInterval({capture},2000)
+// ) : (
+//   {submit}
+// )}

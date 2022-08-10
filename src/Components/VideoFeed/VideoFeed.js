@@ -1,6 +1,6 @@
 import React from 'react';
 import './VideoFeed.css';
-import CameraAccess from '../CameraAccess/CameraAccess';
+import CameraAccess from '../CameraAccess/CameraAccess1';
 
 function VideoFeed() {
   return (
