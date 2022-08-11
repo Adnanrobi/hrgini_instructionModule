@@ -81,6 +81,7 @@ function ImageQst(props) {
         <img src={props.answerText1} />
       </div>
 
+
       <div className="ThirdRow">
         <div className="ImageQst__LeftBottom">
           <div
