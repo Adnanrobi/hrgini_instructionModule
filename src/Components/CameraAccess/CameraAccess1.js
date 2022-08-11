@@ -33,6 +33,7 @@ const App = () => {
         width={1280}
         videoConstraints={videoConstraints}
       />
+      
       {length < 5 ? (
         <button onClick={capture}>Capture photo</button>
       ) : (
