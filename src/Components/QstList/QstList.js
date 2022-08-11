@@ -1,15 +1,21 @@
 import React, { useContext } from "react";
 import { QstContext } from "../../hooks/QstContext";
 import ExamQst from "../ExamQst/ExamQst";
-import ImageQst from "../ImageQst/ImageQst";
+import ImageQst from "../ImageQst/ImageQst1";
 import "./QstList.css";
 
 function QstList() {
   const [qstList, setQstList] = useContext(QstContext);
 
-  const clickHandler = () => {
-    console.log(QstContext.a)
-  }
+  function submitbutton_click_handler()
+{
+  qstList.map((Qst,index) => console.log(`Question No: ${Qst.qstNumber}, a:${Qst.a}, b: ${Qst.b}, c: ${Qst.c}, d: ${Qst.d} `))
+  // let stream = this.webcam.video.srcObject;
+  //   const tracks = stream.getTracks();
+    
+  //   tracks.forEach(track => track.stop());
+  //   this.webcam.video.srcObject = null;
+}
 
   return (
     <div className="QstList">
@@ -50,7 +56,7 @@ function QstList() {
           />
         )
       )}
-      <button type="submit" onClick={clickHandler}>Click to submit</button>
+      <button className="Submit__btn" onClick={submitbutton_click_handler}>Submit</button>
     </div>
   );
 }
