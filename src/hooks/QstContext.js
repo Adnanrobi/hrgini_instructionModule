@@ -23,11 +23,12 @@ export const QstContextProvider = (props) => {
       textQst: true
     },
     {
-      questionText: "Which dog is in black color?",
-      answerText1: "https://picsum.photos/id/237/200/300",
-      answerText2: "https://picsum.photos/id/1/200/300",
-      answerText3: "https://picsum.photos/id/1/200/300",
-      answerText4: "https://picsum.photos/id/1/200/300",
+      QstImage:"https://picsum.photos/id/237/200/300",
+      questionText: "What is this animal?",
+      answerText1: "Cow",
+      answerText2: "Dog",
+      answerText3: "Cat",
+      answerText4: "Tiger",
       a: false, b: false, c: false, d: false,
       qstMark: false,
       qstNumber: 2,

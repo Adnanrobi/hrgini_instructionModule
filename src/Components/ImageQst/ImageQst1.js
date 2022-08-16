@@ -78,7 +78,7 @@ function ImageQst(props) {
       </div>
 
       <div className="SecondRow">
-        <img src={props.answerText1} />
+        <img src={props.QstImage} />
       </div>
 
 

@@ -23,6 +23,7 @@ function QstList() {
         Qst.textQst ? (
           <ExamQst
             key={index}
+            QstImage={Qst.QstImage}
             questionText={Qst.questionText}
             answerText1={Qst.answerText1}
             answerText2={Qst.answerText2}
@@ -40,6 +41,7 @@ function QstList() {
         ) : (
           <ImageQst
             key={index}
+            QstImage={Qst.QstImage}
             questionText={Qst.questionText}
             answerText1={Qst.answerText1}
             answerText2={Qst.answerText2}
